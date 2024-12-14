@@ -1,0 +1,9 @@
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "📃Script Inf Gems📃",
+Text = "create by 👑Đế Vương Thánh Giới 👑", 
+Duration = 3
+})
+game:GetService("ReplicatedStorage").Modules.Packages.Knit.Services.ShopService.RF.PurchasePortalItem:InvokeServer("5007",0/0)
